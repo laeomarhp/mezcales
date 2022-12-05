@@ -1,6 +1,6 @@
 --- 
-title: "YOUR TITLE HERE"
-author: "YOUR NAME HERE"
+title: "Seminario-Taller: Mezcal, la bebida espirituosa más compleja del mundo"
+author: "Omar Heredia-Portillo"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
