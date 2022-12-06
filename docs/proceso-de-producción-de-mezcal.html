@@ -54,7 +54,93 @@
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -172,9 +258,7 @@
 <li class="chapter" data-level="9.1" data-path="mixología-con-mezcal.html"><a href="mixología-con-mezcal.html#fresco.-bebidas-cítricas-y-frutales"><i class="fa fa-check"></i><b>9.1</b> Fresco. Bebidas cítricas y frutales</a></li>
 <li class="chapter" data-level="9.2" data-path="mixología-con-mezcal.html"><a href="mixología-con-mezcal.html#tradicionales"><i class="fa fa-check"></i><b>9.2</b> Tradicionales</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="referencias.html"><a href="referencias.html"><i class="fa fa-check"></i>Referencias</a></li>
-<li class="chapter" data-level="10" data-path="the-pool-of-tears.html"><a href="the-pool-of-tears.html"><i class="fa fa-check"></i><b>10</b> The pool of tears</a></li>
-<li class="chapter" data-level="11" data-path="a-caucus-race-and-a-long-tale.html"><a href="a-caucus-race-and-a-long-tale.html"><i class="fa fa-check"></i><b>11</b> A caucus-race and a long tale</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 </ul>
@@ -198,14 +282,14 @@
 <h1><span class="header-section-number">Chapter 4</span> Proceso de producción de mezcal<a href="proceso-de-producción-de-mezcal.html#proceso-de-producción-de-mezcal" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <div id="materia-prima" class="section level2 hasAnchor" number="4.1">
 <h2><span class="header-section-number">4.1</span> Materia prima<a href="proceso-de-producción-de-mezcal.html#materia-prima" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>El primer paso para hacer mezcal es obtener y cosechar las plantas. Históricamente, la mayoría de los productores buscaban agaves maduros y listos en sus propias tierras. Todo crecía de forma silvestre, y el mezcal resultante se elaboraba a partir de una serie de variedades cocidas y mezcladas para formar un ensamble. Algunos productores simplemente compran plantas de agave crudas a agricultores o intermediarios para alcanzar las cantidades necesarias para cocinar un lote. Otros logran una combinación de los dos métodos: usan agaves silvestres y cultivados de sus propias tierras y compran una combinación de ambos a los intermediarios <span class="citation">[@Janzen2017]</span>.</p>
+<p>El primer paso para hacer mezcal es obtener y cosechar las plantas. Históricamente, la mayoría de los productores buscaban agaves maduros y listos en sus propias tierras. Todo crecía de forma silvestre, y el mezcal resultante se elaboraba a partir de una serie de variedades cocidas y mezcladas para formar un ensamble. Algunos productores simplemente compran plantas de agave crudas a agricultores o intermediarios para alcanzar las cantidades necesarias para cocinar un lote. Otros logran una combinación de los dos métodos: usan agaves silvestres y cultivados de sus propias tierras y compran una combinación de ambos a los intermediarios <span class="citation">(Janzen, 2017)</span>.</p>
 <div id="características-de-la-planta" class="section level3 hasAnchor" number="4.1.1">
 <h3><span class="header-section-number">4.1.1</span> Características de la planta<a href="proceso-de-producción-de-mezcal.html#características-de-la-planta" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Para la elaboración de mezcal, se requiere que los agaves hayan logrado su estado de madurez para proceder a su corte (entre 7 a 8 años), en la cual la cantidad de azúcares es elevada para la producción de alcohol durante la fermentación. Esa condición de madurez se logra de manera natural, de acuerdo al ciclo de vida de cada especie y no necesariamente se ve reflejado en el tamaño de la cabeza o piña, por lo que algunas plantas son más pequeñas que otras. De acuerdo a la experiencia de los maestros mezcaleros, el tipo de suelo, la humedad, el grado de exposición al sol, el tipo de vegetación asociada y la geología del terreno, entre otros, son también algunos de los aspectos que influyen en el tamaño del agave y el tiempo en lograr su madurez <span class="citation">[@Ciatej2014]</span>.</p>
+<p>Para la elaboración de mezcal, se requiere que los agaves hayan logrado su estado de madurez para proceder a su corte (entre 7 a 8 años), en la cual la cantidad de azúcares es elevada para la producción de alcohol durante la fermentación. Esa condición de madurez se logra de manera natural, de acuerdo al ciclo de vida de cada especie y no necesariamente se ve reflejado en el tamaño de la cabeza o piña, por lo que algunas plantas son más pequeñas que otras. De acuerdo a la experiencia de los maestros mezcaleros, el tipo de suelo, la humedad, el grado de exposición al sol, el tipo de vegetación asociada y la geología del terreno, entre otros, son también algunos de los aspectos que influyen en el tamaño del agave y el tiempo en lograr su madurez <span class="citation">(CIATEJ, 2014)</span>.</p>
 </div>
 <div id="selección-de-la-planta" class="section level3 hasAnchor" number="4.1.2">
 <h3><span class="header-section-number">4.1.2</span> Selección de la planta<a href="proceso-de-producción-de-mezcal.html#selección-de-la-planta" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>La selección se realiza de acuerdo al grado de madurez, pueden considerarse las siguientes evidencias o señales <span class="citation">[@Ciatej2014]</span>:</p>
+<p>La selección se realiza de acuerdo al grado de madurez, pueden considerarse las siguientes evidencias o señales <span class="citation">(CIATEJ, 2014)</span>:</p>
 <ol style="list-style-type: decimal">
 <li><p>Color de la hoja. En el caso del Agave cupreata, las hojas dispuestas alrededor del cogollo comienzan a ensancharse en su base y adquirir una forma romboide (angosta y gruesa), asumiendo una tonalidad diferente a las demás en la roseta (verde claro) y el conjunto de hojas de la parte central (cogollo), manifiesta un abombamiento .</p></li>
 <li><p>Velilla. Las hojas o pencas de la parte central del maguey (cogollo), comienzan a crecer un poco más largas y delgadas, que las dispuestas en la roseta. El maguey no desarrolla gran tamaño y comienza a cambiar de color. Generalmente desarrolla un Calehual delgado y bajo, y en algunas ocasiones no.</p></li>
@@ -215,16 +299,16 @@
 </div>
 <div id="labrado-del-maguey" class="section level3 hasAnchor" number="4.1.3">
 <h3><span class="header-section-number">4.1.3</span> Labrado del maguey<a href="proceso-de-producción-de-mezcal.html#labrado-del-maguey" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Este proceso se realiza mediante el uso de una herramienta manual de corte, elaborada de hierro forjado denominada Tarecua (Guerrero), que es un objeto de forma plana semicurva muy afilado y con un mango de madera para su sujeción, a esta operación se le llama de diferentes formas: desvirar (región altiplano potosino-zacatecano y norte), jimado (A. tequilana en Jalisco) o labrado (Oaxaca y Guerrero). Se inicia con el corte de las pencas dispuestas alrededor del corazón o piña del maguey, incluyendo el tocón del Calehual en el caso de los magueyes capones, para luego con una barra se procede a tumbar la piña, acción que consiste en desprender la cabeza desde su base (a ras del suelo) separando el tallo de la raíz <span class="citation">[@Ciatej2014]</span>.</p>
+<p>Este proceso se realiza mediante el uso de una herramienta manual de corte, elaborada de hierro forjado denominada Tarecua (Guerrero), que es un objeto de forma plana semicurva muy afilado y con un mango de madera para su sujeción, a esta operación se le llama de diferentes formas: desvirar (región altiplano potosino-zacatecano y norte), jimado (A. tequilana en Jalisco) o labrado (Oaxaca y Guerrero). Se inicia con el corte de las pencas dispuestas alrededor del corazón o piña del maguey, incluyendo el tocón del Calehual en el caso de los magueyes capones, para luego con una barra se procede a tumbar la piña, acción que consiste en desprender la cabeza desde su base (a ras del suelo) separando el tallo de la raíz <span class="citation">(CIATEJ, 2014)</span>.</p>
 </div>
 <div id="traslado-de-la-piña" class="section level3 hasAnchor" number="4.1.4">
 <h3><span class="header-section-number">4.1.4</span> Traslado de la piña<a href="proceso-de-producción-de-mezcal.html#traslado-de-la-piña" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Generalmente esta operación se realiza utilizando animales de carga (burros, caballos o mulas), debido a que la mayoría de las poblaciones silvestres, por ejemplo, de A. cupreata, se localizan en zonas de difícil acceso. Mientras que las piñas extraídas de plantaciones, generalmente son trasportadas en vehículos, ya que en su mayoría cuentan con caminos de acceso que se utilizan para ello <span class="citation">[@Ciatej2014]</span>.</p>
+<p>Generalmente esta operación se realiza utilizando animales de carga (burros, caballos o mulas), debido a que la mayoría de las poblaciones silvestres, por ejemplo, de A. cupreata, se localizan en zonas de difícil acceso. Mientras que las piñas extraídas de plantaciones, generalmente son trasportadas en vehículos, ya que en su mayoría cuentan con caminos de acceso que se utilizan para ello <span class="citation">(CIATEJ, 2014)</span>.</p>
 </div>
 </div>
 <div id="cocimiento" class="section level2 hasAnchor" number="4.2">
 <h2><span class="header-section-number">4.2</span> Cocimiento<a href="proceso-de-producción-de-mezcal.html#cocimiento" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Consiste en someter las piñas o cabezas de agave (maguey) a un proceso de exposición lenta al calor, dentro de un sistema cerrado para su ablandamiento y cocción, provocando un proceso de hidrólisis de los fructanos del agave (polisacáridos) y que estos se conviertan en glucosa y fructuosa. Existen diversos equipos para la cocción, el más antiguo y rústico es el denominado horno de piso (tierra), de forma trunco cónica y en ocasiones ademado, los hay también de mampostería y autoclaves de acero inoxidable. Al término del cocimiento, las piñas de color blanco adquieren diferentes tonalidades de color que van de café-dorado a marrón oscuro, el más característico es el color caramelo, similar al del piloncillo, lo que indica que los polisacáridos se han convertido en azúcares fermentables, adquiriendo además una consistencia blanda <span class="citation">[@Ciatej2014]</span>.La caramelización de algunos de los azúcares, que son compuestos que proporcionan sabores y aromas, notas que le imprimen características particulares a las bebidas derivadas de agave. Así mismo, a través del cocimiento se logra ablandar la consistencia dura que tiene el agave cuando esta crudo, lo que facilita el machacado, desgarrado y/o molienda que se realizará en la siguiente etapa del proceso de producción <span class="citation">[@Ciatej2014]</span>.</p>
+<p>Consiste en someter las piñas o cabezas de agave (maguey) a un proceso de exposición lenta al calor, dentro de un sistema cerrado para su ablandamiento y cocción, provocando un proceso de hidrólisis de los fructanos del agave (polisacáridos) y que estos se conviertan en glucosa y fructuosa. Existen diversos equipos para la cocción, el más antiguo y rústico es el denominado horno de piso (tierra), de forma trunco cónica y en ocasiones ademado, los hay también de mampostería y autoclaves de acero inoxidable. Al término del cocimiento, las piñas de color blanco adquieren diferentes tonalidades de color que van de café-dorado a marrón oscuro, el más característico es el color caramelo, similar al del piloncillo, lo que indica que los polisacáridos se han convertido en azúcares fermentables, adquiriendo además una consistencia blanda <span class="citation">(CIATEJ, 2014)</span>.La caramelización de algunos de los azúcares, que son compuestos que proporcionan sabores y aromas, notas que le imprimen características particulares a las bebidas derivadas de agave. Así mismo, a través del cocimiento se logra ablandar la consistencia dura que tiene el agave cuando esta crudo, lo que facilita el machacado, desgarrado y/o molienda que se realizará en la siguiente etapa del proceso de producción <span class="citation">(CIATEJ, 2014)</span>.</p>
 <div id="preparación-del-horno" class="section level3 hasAnchor" number="4.2.1">
 <h3><span class="header-section-number">4.2.1</span> Preparación del horno<a href="proceso-de-producción-de-mezcal.html#preparación-del-horno" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Previa la realización de la cargada, se procede a la limpieza del horno, retirando todos los residuos y restos de la cocción anterior como piedras calcinadas, carbón y ceniza. En este proceso se retiran también las piedras impregnadas con mieles de la hornada anterior. Esta práctica es hecha previamente antes de una nueva cargada.</p>
@@ -256,13 +340,13 @@
 <li><p>Se espera el tiempo necesario para que las piñas se enfríen lo suficiente para un manejo seguro.</p></li>
 <li><p>Se extraen las piñas cocidas del horno de forma manual.</p></li>
 <li><p>Las piñas cocidas son trasladadas al área de molienda, colocándolas sobre el piso libre de polvo y basura, de preferencia sobre una cama de hojas de palma u otro elemento aislante para evitar el contacto con la superficie fría.</p></li>
-<li><p>Las piñas de agave cocidas son pesadas nuevamente y registradas en la bitacora <span class="citation">[@Ciatej2014]</span>.</p></li>
+<li><p>Las piñas de agave cocidas son pesadas nuevamente y registradas en la bitacora <span class="citation">(CIATEJ, 2014)</span>.</p></li>
 </ol>
 </div>
 </div>
 <div id="molienda" class="section level2 hasAnchor" number="4.3">
 <h2><span class="header-section-number">4.3</span> Molienda<a href="proceso-de-producción-de-mezcal.html#molienda" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>El objetivo de la molienda es la obtención de los jugos o mieles, y conocer la concentración de azúcares deseados para establecer las relaciones necesarias de bagazo/agua y ajustar a los grados Brix deseados para el siguiente proceso. Esta etapa tiene tres variantes principales (manual, artesanal e industrial) según sea el tipo de equipo utilizado <span class="citation">[@Ciatej2014]</span>:</p>
+<p>El objetivo de la molienda es la obtención de los jugos o mieles, y conocer la concentración de azúcares deseados para establecer las relaciones necesarias de bagazo/agua y ajustar a los grados Brix deseados para el siguiente proceso. Esta etapa tiene tres variantes principales (manual, artesanal e industrial) según sea el tipo de equipo utilizado <span class="citation">(CIATEJ, 2014)</span>:</p>
 <ol style="list-style-type: decimal">
 <li><p>Equipo manual artesanal (marros y hachas principalmente);</p></li>
 <li><p>Tahona (equipo artesanal)</p></li>
@@ -272,7 +356,7 @@
 </div>
 <div id="fermentación" class="section level2 hasAnchor" number="4.4">
 <h2><span class="header-section-number">4.4</span> Fermentación<a href="proceso-de-producción-de-mezcal.html#fermentación" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>La fermentación tiene tres grandes objetivos <span class="citation">[@Ciatej2014]</span>:</p>
+<p>La fermentación tiene tres grandes objetivos <span class="citation">(CIATEJ, 2014)</span>:</p>
 <ol style="list-style-type: decimal">
 <li><p>Lograr una máxima conversión de los azúcares de los agaves en alcohol.</p></li>
 <li><p>Generar compuestos volátiles agradables que repercutirán en la calidad del mezcal producido.</p></li>

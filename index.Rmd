@@ -3,6 +3,8 @@ title: "Seminario-Taller: Mezcal, la bebida espirituosa más compleja del mundo"
 author: "Omar Heredia-Portillo"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
+bibliography: references.bib
+csl: apa.csl
 ---
 
 # Una breve historia moderna
@@ -24,16 +26,20 @@ A medida que aumenta la demanda en ambos lados de la frontera, no todo es sol y 
 
 ### Producción de mezcal
 
+```{r, out.width='75%', fig.align='center', fig.cap='Producción por año (Referido a 45% Alc. Vol.)'}
+knitr::include_graphics('ProduccionPorAño2021.jpg')
+```
 
-
-![Producción por año (Referido a 45% Alc. Vol.)](ProduccionPorAño2022.jpg)
-
-
-![Detalle de la producción (Referido a 45% Alc. Vol.)](DetalleProduccion2022.jpg)
+```{r, out.width='75%', fig.align='center', fig.cap='Detalle de la producción (Referido a 45% Alc. Vol.)'}
+knitr::include_graphics('DetalleProduccion2021.jpg')
+```
 
 La producción nacional de mezcal 2021 referido a 45% Alc. Vol. equivale a 8´099,591.00 litros, siendo la categoría; Mezcal artesanal la principal producida con el 88.92%.
 
-![Producción por categoría (Referido a 45% Alc. Vol.)](ProduccionCategorias2022.jpg)
+```{r, out.width='75%', fig.align='center', fig.cap='Producción por categoría (Referido a 45% Alc. Vol.)'}
+knitr::include_graphics('ProduccionCategorias2021.jpg')
+```
+
 La producción nacional de mezcal 2021 referido a 45% Alc. Vol. equivale a 8´099,591.00 litros, siendo la clase; Blanco o joven la principal producida con el 99.37% [@Comercam2022].
 
 ![Producción por clase (Referido a 45% Alc. Vol.)](ProduccionClase2022.jpg)
@@ -602,5 +608,5 @@ El cóctel es la introducción, enciende esa luz de curiosidad que hace que la g
 ## Tradicionales
 
 
-# Referencias{-}
+# References {-}
 

@@ -68,3 +68,6 @@ fresco.-bebidas-cítricas-y-frutales
 tradicionales
 the-pool-of-tears
 a-caucus-race-and-a-long-tale
+fig:unnamed-chunk-1
+fig:unnamed-chunk-2
+fig:unnamed-chunk-3

@@ -54,7 +54,93 @@
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -172,9 +258,7 @@
 <li class="chapter" data-level="9.1" data-path="mixología-con-mezcal.html"><a href="mixología-con-mezcal.html#fresco.-bebidas-cítricas-y-frutales"><i class="fa fa-check"></i><b>9.1</b> Fresco. Bebidas cítricas y frutales</a></li>
 <li class="chapter" data-level="9.2" data-path="mixología-con-mezcal.html"><a href="mixología-con-mezcal.html#tradicionales"><i class="fa fa-check"></i><b>9.2</b> Tradicionales</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="referencias.html"><a href="referencias.html"><i class="fa fa-check"></i>Referencias</a></li>
-<li class="chapter" data-level="10" data-path="the-pool-of-tears.html"><a href="the-pool-of-tears.html"><i class="fa fa-check"></i><b>10</b> The pool of tears</a></li>
-<li class="chapter" data-level="11" data-path="a-caucus-race-and-a-long-tale.html"><a href="a-caucus-race-and-a-long-tale.html"><i class="fa fa-check"></i><b>11</b> A caucus-race and a long tale</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 </ul>
@@ -196,10 +280,10 @@
             <section class="normal" id="section-">
 <div id="las-especies-de-agave-más-utilizadas" class="section level1 hasAnchor" number="3">
 <h1><span class="header-section-number">Chapter 3</span> Las especies de agave más utilizadas<a href="las-especies-de-agave-más-utilizadas.html#las-especies-de-agave-más-utilizadas" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>En seguida se describen algunas de las especies de agave más comunes para hacer mezcal en la actualidad. La lista no es exhaustiva, sino más bien una instantánea de las tendencias en el mercado actual. La mayoría de los científicos y biólogos del agave argumentan en contra de hacer generalizaciones sobre lo que cada especie de agave contribuye al mezcal en términos de sabor final. Como se describió anteriormente, cada planta, incluso las de la misma especie, puede producir resultados diferentes dependiendo de dónde se cultivó y cómo se procesó. Dicho esto, no está de más probar qué sabores pueden producir ciertos agaves en un mezcal terminado para ayudarlo a navegar las complicadas aguas del mezcal. Las notas de sabor a continuación se compilaron a partir de una variedad de observaciones realizadas por camareros, propietarios de marcas y un servidor <span class="citation">[@Janzen2017]</span>.</p>
+<p>En seguida se describen algunas de las especies de agave más comunes para hacer mezcal en la actualidad. La lista no es exhaustiva, sino más bien una instantánea de las tendencias en el mercado actual. La mayoría de los científicos y biólogos del agave argumentan en contra de hacer generalizaciones sobre lo que cada especie de agave contribuye al mezcal en términos de sabor final. Como se describió anteriormente, cada planta, incluso las de la misma especie, puede producir resultados diferentes dependiendo de dónde se cultivó y cómo se procesó. Dicho esto, no está de más probar qué sabores pueden producir ciertos agaves en un mezcal terminado para ayudarlo a navegar las complicadas aguas del mezcal. Las notas de sabor a continuación se compilaron a partir de una variedad de observaciones realizadas por camareros, propietarios de marcas y un servidor <span class="citation">(Janzen, 2017)</span>.</p>
 <div id="maguey-espadín-a.-angustifolia" class="section level2 hasAnchor" number="3.1">
 <h2><span class="header-section-number">3.1</span> Maguey Espadín (A. Angustifolia)<a href="las-especies-de-agave-más-utilizadas.html#maguey-espadín-a.-angustifolia" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Quizás la especie de agave amigable con el mezcal más ampliamente distribuida, angustifolia es el padre de la variedad espadín, hasta la fecha, el mezcal más común exportado a los Estados Unidos. Con un equilibrio refinado entre la dulzura y la herbácea, el espadín de tamaño mediano suele tardar entre cinco y nueve años en madurar. Se cultiva fácilmente en Oaxaca, Michoacán, Durango y Puebla, donde se llama espadilla. En Sonora, el mezcal elaborado con la especie angustifolia se designa como bacanora, ya que el estado no se encuentra dentro de la Denominación de Origen formal del mezcal. Los recién llegados deben comenzar con un espadín por su excepcional equilibrio y personalidad amable <span class="citation">[@Janzen2017]</span>.</p>
+<p>Quizás la especie de agave amigable con el mezcal más ampliamente distribuida, angustifolia es el padre de la variedad espadín, hasta la fecha, el mezcal más común exportado a los Estados Unidos. Con un equilibrio refinado entre la dulzura y la herbácea, el espadín de tamaño mediano suele tardar entre cinco y nueve años en madurar. Se cultiva fácilmente en Oaxaca, Michoacán, Durango y Puebla, donde se llama espadilla. En Sonora, el mezcal elaborado con la especie angustifolia se designa como bacanora, ya que el estado no se encuentra dentro de la Denominación de Origen formal del mezcal. Los recién llegados deben comenzar con un espadín por su excepcional equilibrio y personalidad amable <span class="citation">(Janzen, 2017)</span>.</p>
 </div>
 <div id="maguey-cenizo-a.-durangensis" class="section level2 hasAnchor" number="3.2">
 <h2><span class="header-section-number">3.2</span> Maguey Cenizo (A. Durangensis)<a href="las-especies-de-agave-más-utilizadas.html#maguey-cenizo-a.-durangensis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -207,7 +291,7 @@
 </div>
 <div id="maguey-papalote-o-chino-a.-cupreata" class="section level2 hasAnchor" number="3.3">
 <h2><span class="header-section-number">3.3</span> Maguey Papalote o Chino (A. Cupreata)<a href="las-especies-de-agave-más-utilizadas.html#maguey-papalote-o-chino-a.-cupreata" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Endémico de la cuenca del río Balsas en Guerrero, pero también cultivada en altitudes elevadas en Michoacán, Guerrero y Puebla (con focos de producción más pequeños en Oaxaca), el cupreata es una planta más baja y rechoncha. Por lo general, silvestre (estados como Guerrero están comenzando a cultivar rápidamente), el cupreata produce un mezcal de cuerpo liviano que tiende a tener un carácter brillante y floral, a veces con un final resinoso y a pino <span class="citation">[@Janzen2017]</span>.</p>
+<p>Endémico de la cuenca del río Balsas en Guerrero, pero también cultivada en altitudes elevadas en Michoacán, Guerrero y Puebla (con focos de producción más pequeños en Oaxaca), el cupreata es una planta más baja y rechoncha. Por lo general, silvestre (estados como Guerrero están comenzando a cultivar rápidamente), el cupreata produce un mezcal de cuerpo liviano que tiende a tener un carácter brillante y floral, a veces con un final resinoso y a pino <span class="citation">(Janzen, 2017)</span>.</p>
 </div>
 <div id="maguey-tobalá-agave-potatorum" class="section level2 hasAnchor" number="3.4">
 <h2><span class="header-section-number">3.4</span> Maguey Tobalá (Agave Potatorum)<a href="las-especies-de-agave-más-utilizadas.html#maguey-tobalá-agave-potatorum" class="anchor-section" aria-label="Anchor link to header"></a></h2>
