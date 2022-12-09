@@ -34,7 +34,7 @@ knitr::include_graphics('ProduccionPorAño2021.jpg')
 knitr::include_graphics('DetalleProduccion2021.jpg')
 ```
 
-La producción nacional de mezcal 2021 referido a 45% Alc. Vol. equivale a 8´099,591.00 litros, siendo la categoría; Mezcal artesanal la principal producida con el 88.92%.
+La producción nacional de mezcal 2021 referido a 45% Alc. Vol. equivale a 8´099,591.00 litros, siendo la categoría; Mezcal artesanal la principal producida con el 88.92% [@Comercam2022].
 
 ```{r, out.width='75%', fig.align='center', fig.cap='Producción por categoría (Referido a 45% Alc. Vol.)'}
 knitr::include_graphics('ProduccionCategorias2021.jpg')
@@ -42,44 +42,67 @@ knitr::include_graphics('ProduccionCategorias2021.jpg')
 
 La producción nacional de mezcal 2021 referido a 45% Alc. Vol. equivale a 8´099,591.00 litros, siendo la clase; Blanco o joven la principal producida con el 99.37% [@Comercam2022].
 
-![Producción por clase (Referido a 45% Alc. Vol.)](ProduccionClase2022.jpg)
-Maguey espadín la principal empleada para la producción con el 88.11%.
+```{r, out.width='75%', fig.align='center', fig.cap='Producción por clase (Referido a 45% Alc. Vol.)'}
+knitr::include_graphics('ProduccionClase2021.jpg')
+```
 
 
-![Producción por especie (Referido a 45% Alc. Vol.)](ProduccionEspecie2022.jpg)
+Maguey espadín la principal empleada para la producción con el 88.11% [@Comercam2022].
+
+```{r, out.width='75%', fig.align='center', fig.cap='Producción por especie (Referido a 45% Alc. Vol.)'}
+knitr::include_graphics('ProduccionEspecie2021.jpg')
+```
 
 
 
 ### Envasado para el mercado nacional
 
 
-![Envasado para mercado nacional por año (Referido a 45% Alc. Vol.)](EnvasadoNacional2022.jpg)
+```{r, out.width='75%', fig.align='center', fig.cap='Envasado para mercado nacional por año (Referido a 45% Alc. Vol.)'}
+knitr::include_graphics('EnvasadoNacional2021.jpg')
+```
 
-![Detalle Envasado para mercado nacional por año (Referido a 45% Alc. Vol.)](DetalleEnvasadoNacional2021.jpg)
 
+```{r, out.width='75%', fig.align='center', fig.cap='Detalle de envasado para mercado nacional por año (Referido a 45% Alc. Vol.)'}
+knitr::include_graphics('DetalleEnvasadoNacional2021.jpg')
+```
 
 
 ### Envasado para el mercado de exportación
 
 
-![Envasado para mercado de exportación por año (Referido a 45% Alc. Vol.)](EnvasadoExportacion2021.jpg)
+```{r, out.width='75%', fig.align='center', fig.cap='Envasado para mercado de exportación por año (Referido a 45% Alc. Vol.)'}
+knitr::include_graphics('EnvasadoExportacion2021.jpg')
+```
 
-![Detalle Envasado para mercado de exportación por año (Referido a 45% Alc. Vol.)](DetalleEnvasadoExportacion2021.jpg)
+
+```{r, out.width='75%', fig.align='center', fig.cap='Detalle de envasado para mercado de exportación por año (Referido a 45% Alc. Vol.)'}
+knitr::include_graphics('DetalleEnvasadoExportacion2021.jpg')
+```
+
+
 
 ### Valor de la categoría
 
+```{r, out.width='75%', fig.align='center', fig.cap='Indicadores del sector mezcal'}
+knitr::include_graphics('IndicadoresSector2021.jpg')
+```
 
-![Indicadores del sector mezcal](IndicadoresSector2021.jpg)
+```{r, out.width='75%', fig.align='center', fig.cap='Historico envasado (Referido a 45% Alc. Vol.)'}
+knitr::include_graphics('HistoricoEnvasado2021.jpg')
+```
 
-![Historico envasado (Referido a 45% Alc. Vol.)](HistoricoEnvasado2021.jpg)
 
-![Historico Del Valor Estimado De La Categoría (Millones De Pesos)](HistoricoValor2021.jpg)
+```{r, out.width='75%', fig.align='center', fig.cap='Historico Del Valor Estimado De La Categoría (Millones De Pesos)'}
+knitr::include_graphics('HistoricoValor2021.jpg')
+```
+
 
 # Normatividad
 
 ## La denominación de origen del mezcal
 
-Un producto con denominación de origen es un producto vinculado a la zona geográfica de la que es originario, siempre y cuando su calidad, características o reputación se deban exclusiva o esencialmente al origen geográfico de sus materias primas, sus procesos de producción, así como sus factores naturales o culturales.  Desde 1994, el MEZCAL cuenta con Denominación de Origen, y para garantizar su autenticidad se debe demostrar el cumplimiento de la Norma Oficial Mexicana NOM-070-SCFI-2016 Bebidas alcohólicas, Mezcal, Especificaciones. Actualmente, la Denominación de Origen Mezcal (DOM) comprende los estados de Oaxaca, Guerrero, San Luis Potosí, Zacatecas y Durango, además de 2 municipios de Guanajuato, 11 municipios de Tamaulipas, 29 municipios de Michoacán y 116 municipios de Puebla que se agregaron tras haber demostrado estos últimos estados que cuentan con una tradición en la producción de mezcal. Puntos imporytantes de la DOM:
+Un producto con denominación de origen es un producto vinculado a la zona geográfica de la que es originario, siempre y cuando su calidad, características o reputación se deban exclusiva o esencialmente al origen geográfico de sus materias primas, sus procesos de producción, así como sus factores naturales o culturales.  Desde 1994, el MEZCAL cuenta con Denominación de Origen, y para garantizar su autenticidad se debe demostrar el cumplimiento de la Norma Oficial Mexicana NOM-070-SCFI-2016 Bebidas alcohólicas, Mezcal, Especificaciones. Actualmente, la Denominación de Origen Mezcal (DOM) comprende los estados de Oaxaca, Guerrero, San Luis Potosí, Zacatecas y Durango, además de 2 municipios de Guanajuato, 11 municipios de Tamaulipas, 29 municipios de Michoacán y 116 municipios de Puebla que se agregaron tras haber demostrado estos últimos estados que cuentan con una tradición en la producción de mezcal. Puntos importantes de la DOM:
 
 _Nombre de la denominación de origen y producto o productos que se pretende ampar_ 
 
@@ -102,11 +125,11 @@ Se constituyó en 1997 con la finalidad de evaluar el cumplimiento de la Norma O
 
 ### NOM-070-SCFI-2016
 
-La Norma Oficial Mexicana (NOM) establece las características y especificaciones que debe cumplir la bebida alcohólica destilada denominada Mezcal para su producción, envasado y comercialización [@Nom070]. A continuación se resaltan los puntos considerados de mayor importancia:
+La Norma Oficial Mexicana (NOM) establece las características y especificaciones que debe cumplir la bebida alcohólica destilada denominada Mezcal para su producción, envasado y comercialización, se mencionan los puntos de mayor importancia [@Nom070]:
 
 _3.17. Mezcal_
 
-Bebida alcohólica destilada mexicana, 100 % de maguey o agave, obtenida por destilación de los jugos fermentados con microorganismos espontáneos o cultivados, extraídos de cabezas maduras de magueyes o agaves cocidos, cosechados en el territorio comprendido por la DOM. Es un líquido de aroma y sabor derivado de la especie de maguey o agave empleado, así como del proceso de elaboración; diversificando sus cualidades por el tipo de suelo, topografía, clima, agua, productor autorizado, maestro mezcalero, graduación alcohólica, microorganismos, entre otros factores que definen el carácter y las sensaciones organolépticas producidas por cada Mezcal..
+Bebida alcohólica destilada mexicana, 100 % de maguey o agave, obtenida por destilación de los jugos fermentados con microorganismos espontáneos o cultivados, extraídos de cabezas maduras de magueyes o agaves cocidos, cosechados en el territorio comprendido por la DOM. Es un líquido de aroma y sabor derivado de la especie de maguey o agave empleado, así como del proceso de elaboración; diversificando sus cualidades por el tipo de suelo, topografía, clima, agua, productor autorizado, maestro mezcalero, graduación alcohólica, microorganismos, entre otros factores que definen el carácter y las sensaciones organolépticas producidas por cada Mezcal.
 
 _3.19. Productor autorizado_
 
@@ -187,7 +210,10 @@ m) Cada envase debe llevar grabada o marcada la identificación del lote a que p
 
 n) La leyenda Hecho en México o Producto de México o el gráfico de indicación de procedencia es información opcional.
 
-![Etiquetado para la venta nacional](Etiqueta_MEzcal.jpg)
+```{r, out.width='75%', fig.align='center', fig.cap='Elementos obligatorios en el etiquetado para la venta nacional'}
+knitr::include_graphics('Etiqueta_Mezcal.jpg')
+```
+
 
 _7. Comercialización_
 
@@ -227,37 +253,64 @@ La comprobación de lo establecido en la presente NOM se realiza a través de in
 
 # Las especies de agave más utilizadas
 
-En seguida se describen algunas de las especies de agave más comunes para hacer mezcal en la actualidad. La lista no es exhaustiva, sino más bien una instantánea de las tendencias en el mercado actual. La mayoría de los científicos y biólogos del agave argumentan en contra de hacer generalizaciones sobre lo que cada especie de agave contribuye al mezcal en términos de sabor final. Como se describió anteriormente, cada planta, incluso las de la misma especie, puede producir resultados diferentes dependiendo de dónde se cultivó y cómo se procesó. Dicho esto, no está de más probar qué sabores pueden producir ciertos agaves en un mezcal terminado para ayudarlo a navegar las complicadas aguas del mezcal. Las notas de sabor a continuación se compilaron a partir de una variedad de observaciones realizadas por camareros, propietarios de marcas y un servidor [@Janzen2017].
+En seguida se describen algunas de las especies de agave más comunes para hacer mezcal. La lista no es exhaustiva, sino más bien muestra las tendencias en el mercado actual. Como se describió anteriormente, cada planta, incluso las de la misma especie, puede producir resultados diferentes dependiendo de dónde se cultivó y cómo se procesó [@Janzen2017].
 
 ## Maguey Espadín (A. Angustifolia)
 
+
 Quizás la especie de agave amigable con el mezcal más ampliamente distribuida, angustifolia es el padre de la variedad espadín, hasta la fecha, el mezcal más común exportado a los Estados Unidos. Con un equilibrio refinado entre la dulzura y la herbácea, el espadín de tamaño mediano suele tardar entre cinco y nueve años en madurar. Se cultiva fácilmente en Oaxaca, Michoacán, Durango y Puebla, donde se llama espadilla. En Sonora, el mezcal elaborado con la especie angustifolia se designa como bacanora, ya que el estado no se encuentra dentro de la Denominación de Origen formal del mezcal. Los recién llegados deben comenzar con un espadín por su excepcional equilibrio y personalidad amable [@Janzen2017].
+
+```{r, out.width='75%', fig.align='center', fig.cap='Maguey Espadín'}
+knitr::include_graphics('Espadin.jpeg')
+```
 
 ## Maguey Cenizo (A. Durangensis)
 
 El agave más usado para la producción de mezcal en Durango, la mayoría cosechado de poblaciones silvestres, resistente a heladas durante el invierno. Alcanza su madures entre los 10 y 12 años, el redimiento es de 20 kilos de agave por litro de mezcal. Se caracterisa por sus aromas frutados- cítricos, terrosos y dulces, con  sabor a granos de café tostado intenso, especias de madera y pan de pasas sutiles en la boca.
 
+```{r, out.width='75%', fig.align='center', fig.cap='Maguey Cenizo'}
+knitr::include_graphics('Cenizo.jpg')
+```
+
 ## Maguey Papalote o Chino (A. Cupreata)
 
 Endémico de la cuenca del río Balsas en Guerrero, pero también cultivada en altitudes elevadas en Michoacán, Guerrero y Puebla (con focos de producción más pequeños en Oaxaca), el cupreata es una planta más baja y rechoncha. Por lo general, silvestre (estados como Guerrero están comenzando a cultivar rápidamente), el cupreata produce un mezcal de cuerpo liviano que tiende a tener un carácter brillante y floral, a veces con un final resinoso y a pino [@Janzen2017].
 
+```{r, out.width='75%', fig.align='center', fig.cap='Maguey Cupreata'}
+knitr::include_graphics('Cupreata.jpeg')
+```
+
 ## Maguey Tobalá (Agave Potatorum)
 
-Su distribución abarca el extremo oriental de la cuenca del río Balsas, el Valle de Tehuacán–Cuicatlán, pie de monte de las sierras Mixtecas y montañas que rodean los Valles Centrales de Oaxaca. Posiblemente es el maguey que menos tarda en fermentar, pues, después de ser cocido en un horno de piedra, con leña de encino o de sauce, y con un buen clima de por medio, sólo le toma de tres a cinco días aproximadamente; probablemente a causa de su gran reserva de hidrógeno, el principal acelerador de las levaduras, dando como resultado un mezcal con un grado de alcohol que ronda de los 47 a los 50 grados. Se caracteriza por ser aromático con un sabor donde se perciben frutas tropicales y notas un tanto picantes. 
+Su distribución abarca el extremo oriental de la cuenca del río Balsas, el Valle de Tehuacán–Cuicatlán, pie de monte de las sierras Mixtecas y montañas que rodean los Valles Centrales de Oaxaca. Posiblemente es el maguey que menos tarda en fermentar, pues, después de ser cocido en un horno de piedra, con leña de encino o de sauce, y con un buen clima de por medio, sólo le toma de tres a cinco días aproximadamente; probablemente a causa de su gran reserva de hidrógeno, el principal acelerador de las levaduras, dando como resultado un mezcal con un grado de alcohol que ronda de los 47 a los 50 grados. Se caracteriza por ser aromático con un sabor donde se perciben frutas tropicales y notas un tanto picantes.
+
+```{r, out.width='75%', fig.align='center', fig.cap='Maguey Tobalá'}
+knitr::include_graphics('Tobala.jpg')
+```
 
 ## Maguey Azúl (A. Tequilana)
 
-
+```{r, out.width='75%', fig.align='center', fig.cap='Maguey Azúl'}
+knitr::include_graphics('Azul.jpg')
+```
 
 ## Maguey Cuishe (A. Karwinski)
 
 El Agave Karwinskii, es una especie microendémica limita su distribución en las zona áridas del valle de Tehuacán y los valles centrales de Oaxaca, entre los 750 y 2000m de altitud.  A diferencia de otros magueyes mezcaleros, es una planta que crece en áreas de suelos calizos y poca lluvia. Es un mezcal muy aromático que deja un retrogusto ligeramente amargo. Esta especie de maguey la dejan enmohecer después de cocerlo y antes de machacarlo para que se produzca un buen mezcal. El tomar un mezcal hecho de Agave Karwinskii es un privilegio ya que tuvieron que pasar 12 años para cortarlo, además debe llevar un proceso especial en su elaboración y no en todo el país se elabora.
+
+```{r, out.width='75%', fig.align='center', fig.cap='Maguey Cuishe'}
+knitr::include_graphics('Cuishe.jpg')
+```
 
 # Proceso de producción de mezcal
 
 ## Materia prima
 
 El primer paso para hacer mezcal es obtener y cosechar las plantas. Históricamente, la mayoría de los productores buscaban agaves maduros y listos en sus propias tierras. Todo crecía de forma silvestre, y el mezcal resultante se elaboraba a partir de una serie de variedades cocidas y mezcladas para formar un ensamble. Algunos productores simplemente compran plantas de agave crudas a agricultores o intermediarios para alcanzar las cantidades necesarias para cocinar un lote. Otros logran una combinación de los dos métodos: usan agaves silvestres y cultivados de sus propias tierras y compran una combinación de ambos a los intermediarios [@Janzen2017].
+
+```{r, out.width='75%', fig.align='center', fig.cap='Parcela de magueyes en Ex-hacienda Zacapendo'}
+knitr::include_graphics('MateriaPrima.jpg')
+```
 
 ### Características de la planta
 
@@ -275,28 +328,44 @@ La selección se realiza de acuerdo al grado de madurez, pueden considerarse las
 
 (4) Maguey Capón. Una vez que el calehual ha alcanzado una altura aproximada de un metro sobre las hojas, se procede a cortarlo con la finalidad de que acumule los azúcares suficientes. Despues, se deja pasar un periodo de tiempo suficiente (entre 8 y 12 meses), para que la planta pueda ser labrada.
 
+```{r, out.width='75%', fig.align='center', fig.cap='Brote del quiote'}
+knitr::include_graphics('Quiote.jpg')
+```
+
 ### Labrado del maguey
 
 Este proceso se realiza mediante el uso de una herramienta manual de corte, elaborada de hierro forjado denominada Tarecua (Guerrero), que es un objeto de forma plana semicurva muy afilado y con un mango de madera para su sujeción, a esta operación se le llama de diferentes formas: desvirar (región altiplano potosino-zacatecano y norte), jimado (A. tequilana en Jalisco) o labrado (Oaxaca y Guerrero). Se inicia con el corte de las pencas dispuestas alrededor del corazón o piña del maguey, incluyendo el tocón del Calehual en el caso de los magueyes capones, para luego con una barra se procede a tumbar la piña, acción que consiste en desprender la cabeza desde su base (a ras del suelo) separando el tallo de la raíz [@Ciatej2014].
+
+```{r, out.width='75%', fig.align='center', fig.cap='Jima del maguey en Ex-hacienda Zacapaendo'}
+knitr::include_graphics('Jima.jpg')
+```
 
 ### Traslado de la piña
 
 Generalmente esta operación se realiza utilizando animales de carga (burros, caballos o mulas), debido a que la mayoría de las poblaciones silvestres, por ejemplo, de A. cupreata, se localizan en zonas de difícil acceso. Mientras que las piñas extraídas de plantaciones, generalmente son trasportadas en vehículos, ya que en su mayoría cuentan con caminos de acceso que se utilizan para ello [@Ciatej2014].
 
+```{r, out.width='75%', fig.align='center', fig.cap='Traslado de maguey'}
+knitr::include_graphics('Traslado.jpg')
+```
 
 ## Cocimiento
 
-Consiste en someter las piñas o cabezas de agave (maguey) a un proceso de exposición lenta al calor, dentro de un sistema cerrado para su ablandamiento y cocción, provocando un proceso de hidrólisis de los fructanos del agave (polisacáridos) y que estos se conviertan en glucosa y fructuosa. Existen diversos equipos para la cocción, el más antiguo y rústico es el denominado horno de piso (tierra), de forma trunco cónica y en ocasiones ademado, los hay también de mampostería y autoclaves de acero inoxidable. Al término del cocimiento, las piñas de color blanco adquieren diferentes tonalidades de color que van de café-dorado a marrón oscuro, el más característico es el color caramelo, similar al del piloncillo, lo que indica que los polisacáridos se han convertido en azúcares fermentables, adquiriendo además una consistencia blanda [@Ciatej2014].La caramelización de algunos de los azúcares, que son compuestos que proporcionan sabores y aromas, notas que le imprimen características particulares a las bebidas derivadas de agave. Así mismo, a través del cocimiento se logra ablandar la consistencia dura que tiene el agave cuando esta crudo, lo que facilita el machacado, desgarrado y/o molienda que se realizará en la siguiente etapa del proceso de producción [@Ciatej2014].
+Consiste en someter las piñas o cabezas de agave (maguey) a un proceso de exposición lenta al calor, dentro de un sistema cerrado para su ablandamiento y cocción, provocando un proceso de hidrólisis de los fructanos del agave (polisacáridos) y que estos se conviertan en glucosa y fructuosa. Existen diversos equipos para la cocción, el más antiguo y rústico es el denominado horno de piso (tierra), de forma trunco cónica y en ocasiones ademado, los hay también de mampostería y autoclaves de acero inoxidable. Al término del cocimiento, las piñas de color blanco adquieren diferentes tonalidades de color que van de café-dorado a marrón oscuro, el más característico es el color caramelo, similar al del piloncillo, lo que indica que los polisacáridos se han convertido en azúcares fermentables, adquiriendo además una consistencia blanda [@Ciatej2014].La caramelización de algunos de los azúcares, que son compuestos que proporcionan sabores y aromas, notas que le imprimen características particulares a las bebidas derivadas de agave. Así mismo, a través del cocimiento se logra ablandar la consistencia dura que tiene el agave cuando esta crudo, lo que facilita el machacado, desgarrado y/o molienda que se realizará en la siguiente etapa del proceso de producción [@Ciatej2014]:
 
 ### Preparación del horno
 
-Previa la realización de la cargada, se procede a la limpieza del horno, retirando todos los residuos y restos de la cocción anterior como piedras calcinadas, carbón y ceniza. En este proceso se retiran también las piedras impregnadas con mieles de la hornada anterior. Esta práctica es hecha previamente antes de una nueva cargada. 
+Previa la realización de la cargada, se procede a la limpieza del horno, retirando todos los residuos y restos de la cocción anterior como piedras calcinadas, carbón y ceniza. En este proceso se retiran también las piedras impregnadas con mieles de la hornada anterior. Esta práctica es hecha previamente antes de una nueva cargada.
+
 
 ### Encendido del horno 
 
 (1) Se prende fuego a la leña colocada al interior del horno, pudiendo utilizar como agente que favorezca la ignición y su encendido los alcoholes superiores o puntas. 
 
-(2) Se espera a que las piedras adquieran la temperatura suficiente y que la mayor parte de la madera se consuma, lo cual se evidencia al no producir humo, reacomodándolas de manera que quede una superficie homogénea. 
+(2) Se espera a que las piedras adquieran la temperatura suficiente y que la mayor parte de la madera se consuma, lo cual se evidencia al no producir humo, reacomodándolas de manera que quede una superficie homogénea.
+
+```{r, out.width='75%', fig.align='center', fig.cap='Encendido de horno en Ex-hacienda Zacapendo'}
+knitr::include_graphics('EncendidoHorno.jpg')
+```
 
 ### Carga del horno 
 
@@ -312,7 +381,11 @@ Previa la realización de la cargada, se procede a la limpieza del horno, retira
 
 (6) Antes del sellado, se incorpora agua a través de un orificio sobre la parte central del domo, una vez realizado este procedimiento se tapa el orificio. 
 
-(7) Se espera a que transcurra el tiempo adecuado de cocimiento según la capacidad del horno. 
+(7) Se espera a que transcurra el tiempo adecuado de cocimiento según la capacidad del horno.
+
+```{r, out.width='75%', fig.align='center', fig.cap='Carga de horno en Ex-hacienda Zacapendo'}
+knitr::include_graphics('CargaHorno.jpg')
+```
 
 ### Destapado del horno: 
 
@@ -328,17 +401,28 @@ Previa la realización de la cargada, se procede a la limpieza del horno, retira
 
 (6) Las piñas de agave cocidas son pesadas nuevamente y registradas en la bitacora [@Ciatej2014].
 
+```{r, out.width='75%', fig.align='center', fig.cap='Destapado de horno en Ex-hacienda Zacapendo'}
+knitr::include_graphics('DestapadoHorno.jpg')
+```
+
 ## Molienda
 
 El objetivo de la molienda es la obtención de los jugos o mieles, y conocer la concentración de azúcares deseados para establecer las relaciones necesarias de bagazo/agua y ajustar a los grados Brix deseados para el siguiente proceso. Esta etapa tiene tres variantes principales (manual, artesanal e industrial) según sea el tipo de equipo utilizado [@Ciatej2014]: 
 
 (1) Equipo manual artesanal (marros y hachas principalmente);
 
+```{r, out.width='75%', fig.align='center', fig.cap='Molienda ancestral en Ex-hacienda Zacapendo'}
+knitr::include_graphics('MoliendaAncestral.jpg')
+```
 (2) Tahona (equipo artesanal) 
 
-(3) Molino desfibrador 
+(3) Molino desfibrador
 
 (4) Extractores industriales modernos (principalmente molino de tres masas)
+
+```{r, out.width='75%', fig.align='center', fig.cap='Molino moderno en Ex-hacienda Zacapendo'}
+knitr::include_graphics('Molino.jpg')
+```
 
 ## Fermentación
 
@@ -350,7 +434,7 @@ La fermentación tiene tres grandes objetivos [@Ciatej2014]:
 
 (3) Evitar la producción de sustancias no deseadas como la acidez .
 
-En esta etapa se realiza el cambio bioquímico de los azúcares reductores provenientes del agave en alcohol (principalmente etanol) y compuestos volátiles. La fermentación puede dividirse en dos subetapas: 
+En esta etapa se realiza el cambio bioquímico de los azúcares reductores provenientes del agave en alcohol (principalmente etanol) y compuestos volátiles. La fermentación puede dividirse en dos subetapas [@Ciatej2014]: 
 
 (1) Preparación del mosto. La preparación para la producción de mezcal se realiza utilizando sólo los azúcares del agave obtenidos en la molienda y en el cocimiento. En la formulación del medio se considera: a) La concentración de azúcares inicial; b)Las condiciones ambientales como la temperatura; y c) Los nutrientes requeridos por las levaduras (fosfato de amonio y cloruro de magnesio, principalmente). 
 
@@ -358,31 +442,43 @@ En esta etapa se realiza el cambio bioquímico de los azúcares reductores prove
 
 ### Tinas de fermentación de hoyos en el suelo 
 
-Consisten en hoyos en el suelo con un diámetro aproximado de 1.5 a 2.0 m y una profundidad de 2 m. Este tipo de tinas de fermentación se encuentran principalmente en lugares distantes de las ciudades en donde el suelo contiene barro. Las ventajas de tener tinas de fermentación en el suelo es que son muy baratas y pueden tenerse en casi cualquier fábrica de producción de mezcal siempre y cuando la tierra no sea porosa. Las desventajas es que la tierra misma causa contaminación del agave cocido y al estar al nivel del suelo incluso los roedores pueden caer dentro de las tinas de fermentación. 
+Consisten en hoyos en el suelo con un diámetro aproximado de 1.5 a 2.0 m y una profundidad de 2 m. Este tipo de tinas de fermentación se encuentran principalmente en lugares distantes de las ciudades en donde el suelo contiene barro. Las ventajas de tener tinas de fermentación en el suelo es que son muy baratas y pueden tenerse en casi cualquier fábrica de producción de mezcal siempre y cuando la tierra no sea porosa. Las desventajas es que la tierra misma causa contaminación del agave cocido y al estar al nivel del suelo incluso los roedores pueden caer dentro de las tinas de fermentación [@Ciatej2014]. 
 
 ### Tinas de fermentación de madera 
 
-Este tipo de tinas de fermentación son las más utilizadas en los procesos de producción de mezcal. Tiene la ventaja de que la madera es un aislante por lo que la temperatura externa puede no influir tanto en la temperatura de la fermentación. Sin embargo, las tinas de madera son porosas y si no se les da una limpieza correcta pueden mantener por mucho tiempo microorganismos no deseados que pueden provocar la generación de compuestos no deseados como son los ácidos orgánicos.
+Este tipo de tinas de fermentación son las más utilizadas en los procesos de producción de mezcal. Tiene la ventaja de que la madera es un aislante por lo que la temperatura externa puede no influir tanto en la temperatura de la fermentación. Sin embargo, las tinas de madera son porosas y si no se les da una limpieza correcta pueden mantener por mucho tiempo microorganismos no deseados que pueden provocar la generación de compuestos no deseados como son los ácidos orgánicos [@Ciatej2014].
+
+```{r, out.width='75%', fig.align='center', fig.cap='Tinas de fermentación de madera en Ex-hacienda Zacapendo'}
+knitr::include_graphics('TinasMadera.jpg')
+```
 
 ### Tinas de cemento y/o piedra
 
-En algunas zonas productoras de mezcal se han establecido tinas de fermentación de piedra como la cantera o de tabique forradas con cemento o con piso cerámico . Este tipo de tinas al igual que las de madera son porosas y deben ser limpiadas muy bien antes de adicionarles las fibras o el jugo de agave y también después de la fermentación.
+En algunas zonas productoras de mezcal se han establecido tinas de fermentación de piedra como la cantera o de tabique forradas con cemento o con piso cerámico . Este tipo de tinas al igual que las de madera son porosas y deben ser limpiadas muy bien antes de adicionarles las fibras o el jugo de agave y también después de la fermentación [@Ciatej2014].
 
 ### Tinas de fermentación de cuero de res 
 
-Para eso los productores le quitan a los animales la piel lo más completa posible, posteriormente las cosen con hilos de las patas para formar un recipiente. Posteriormente, los llenan de agua y todos los días se suben a las pieles para estirarlos lo más posible para obtener recipientes con el máximo volumen posible. Este tipo de tinas tiene la ventaja que pueden ponerse en cualquier empresa mezcalera, además de que son térmicas y conservan la temperatura interna de las tinas, la limpieza es sencilla y normalmente no le quedan residuos de fermentaciones anteriores. La desventaja es que el volumen de funcionamiento no sobrepasa los 200 L y se requieren de varias tinas para tener una producción pequeña.
+Para eso los productores le quitan a los animales la piel lo más completa posible, posteriormente las cosen con hilos de las patas para formar un recipiente. Posteriormente, los llenan de agua y todos los días se suben a las pieles para estirarlos lo más posible para obtener recipientes con el máximo volumen posible. Este tipo de tinas tiene la ventaja que pueden ponerse en cualquier empresa mezcalera, además de que son térmicas y conservan la temperatura interna de las tinas, la limpieza es sencilla y normalmente no le quedan residuos de fermentaciones anteriores. La desventaja es que el volumen de funcionamiento no sobrepasa los 200 L y se requieren de varias tinas para tener una producción pequeña [@Ciatej2014].
 
 ### Tinas de fermentación de plástico 
 
-En los últimos años se han estado utilizando tinas de fermentación de plástico de los llamados rotoplas. Estos tanques pueden adquirirse a precios accesibles, por lo que es común encontrarlas en varias fábricas de producción de mezcal. Las ventajas de este tipo de tinas, es que el plástico sirve como aislante y puede mantener la temperatura interna a pesar del frio externo. Sin embargo la desventaja es que las tinas están hechas de polímeros derivados del petróleo, que pueden contener solventes. El jugo de agave es muy corrosivo y con cualquier corte o daño en el plástico se corre el riesgo de contaminar el jugo de agave y pasar hasta el producto final, es por eso que no se recomienda utilizarlos.
+En los últimos años se han estado utilizando tinas de fermentación de plástico de los llamados rotoplas. Estos tanques pueden adquirirse a precios accesibles, por lo que es común encontrarlas en varias fábricas de producción de mezcal. Las ventajas de este tipo de tinas, es que el plástico sirve como aislante y puede mantener la temperatura interna a pesar del frio externo. Sin embargo la desventaja es que las tinas están hechas de polímeros derivados del petróleo, que pueden contener solventes. El jugo de agave es muy corrosivo y con cualquier corte o daño en el plástico se corre el riesgo de contaminar el jugo de agave y pasar hasta el producto final, es por eso que no se recomienda utilizarlos [@Ciatej2014].
+
+```{r, out.width='75%', fig.align='center', fig.cap='Tinas de fermentación de plástico'}
+knitr::include_graphics('TinasPlastico.jpg')
+```
 
 ### Tinas de fermentación de acero inoxidable 
 
-Las tinas de acero inoxidable son poco utilizadas en los procesos de producción de mezcal debido a que son muy costosas y rompen la imagen del proceso artesanal. La ventaja es que son muy resistentes y facil de limpiar evitando suciedad en las paredes. Además, se pueden mandar a fabricar bajo medida e incluso con tapa para evitar que polvo o animales se introduzcan. También en su fabricación es posible poner descargas de jugo dirigidas hacia los alambiques para la destilación al final de la fermentación.
+Las tinas de acero inoxidable son poco utilizadas en los procesos de producción de mezcal debido a que son muy costosas y rompen la imagen del proceso artesanal. La ventaja es que son muy resistentes y facil de limpiar evitando suciedad en las paredes. Además, se pueden mandar a fabricar bajo medida e incluso con tapa para evitar que polvo o animales se introduzcan. También en su fabricación es posible poner descargas de jugo dirigidas hacia los alambiques para la destilación al final de la fermentación [@Ciatej2014].
+
+```{r, out.width='75%', fig.align='center', fig.cap='Tinas de fermentación de acero inoxidable en Ex-hacienda Zacapendo'}
+knitr::include_graphics('TinasAcero.jpg')
+```
 
 ## Destilación
 
-Es el método empleado para separar y concentrar los componentes químicos y sensoriales producidos en las etapas de proceso previas, desde el cocimiento hasta la fermentación, aprovechando para ello las distintas propiedades fisicoquímicas y termodinámicas de los mismos. La aplicación de la destilación en el proceso de elaboración de mezcal, se involucran los siguientes principios: 
+Es el método empleado para separar y concentrar los componentes químicos y sensoriales producidos en las etapas de proceso previas, desde el cocimiento hasta la fermentación, aprovechando para ello las distintas propiedades fisicoquímicas y termodinámicas de los mismos. La aplicación de la destilación en el proceso de elaboración de mezcal, se involucran los siguientes principios [@Ciatej2014]: 
 
 (1) Creación de un sistema de dos fases mediante la vaporización del mosto fermentado o del ordinario o simple; 
 
@@ -390,23 +486,35 @@ Es el método empleado para separar y concentrar los componentes químicos y sen
 
 (3) Separación de las fases (vaporización-condensación);
 
-La destilación tradicional (con alambiques de cobre) comprende dos etapas:
+La destilación tradicional (con alambiques de cobre) comprende dos etapas [@Ciatej2014]:
 
 (1) Destrozamiento. Tiene por objetivo separar el etanol y otros compuestos químicos volátiles de los otros componentes del mosto fermentado como agua, levaduras y debris o residuos celulares, azúcares residuales, fibra o bagazo y sales minerales.
 
-(2) Segunda destilación o rectificación (refinada). Tiene como objetivo alcanzar un grado alcohólico superior al 40% Alc. Vol. en el destilado y se inicia vaciando a la olla o hervidor las garrafas obtenidas en la primera destilación para enseguida tapar la olla y sellarla, colocar el cuello de cisne e iniciar el calentamiento. 
+(2) Segunda destilación o rectificación (refinada). Tiene como objetivo alcanzar un grado alcohólico superior al 40% Alc. Vol. en el destilado y se inicia vaciando a la olla o hervidor las garrafas obtenidas en la primera destilación para enseguida tapar la olla y sellarla, colocar el cuello de cisne e iniciar el calentamiento.
+
+```{r, out.width='75%', fig.align='center', fig.cap='Destilación artesanal en Ex-hacienda Zacapendo'}
+knitr::include_graphics('AlambiqueArtesanal.jpg')
+```
 
 ## Acabado y envasado del mezcal
 
-El volumen obtenido de la segunda destilación, es un destilado con un grado alcohólico que puede ir del 45 al 60% Alc. Vol. A este rectificado no se le puede considerar todavía como un producto terminado que pueda ser puesto en un envase adecuado para su distribución y venta al consumidor, por ello es necesario aplicar diversas técnicas de acabado del producto para que este logre la calidad conforme a la NOM-070. Los procesos de acabado del rectificado tienen el objetivo de obtener el mezcal en el grado alcohólico y con las características químicas y sensoriales que el envasador pretende, de acuerdo a las particularidades de su producto, marca, mercado objetivo entre otros factores. No todos los productores de mezcal pretenden poner en uso alguna técnica de acabado ya que preferirán señalar que su producto es 100% natural, otros pretenderán suavizar el sabor del mezcal para reducir la sensación de astringencia en boca que proporciona el etanol, por tanto las técnicas aquí mencionadas para lograr un producto terminado podrán o no aplicar para todos los productores.
+El volumen obtenido de la segunda destilación, es un destilado con un grado alcohólico que puede ir del 45 al 60% Alc. Vol. A este rectificado no se le puede considerar todavía como un producto terminado que pueda ser puesto en un envase adecuado para su distribución y venta al consumidor, por ello es necesario aplicar diversas técnicas de acabado del producto para que este logre la calidad conforme a la NOM-070. Los procesos de acabado del rectificado tienen el objetivo de obtener el mezcal en el grado alcohólico y con las características químicas y sensoriales que el envasador pretende, de acuerdo a las particularidades de su producto, marca, mercado objetivo entre otros factores. No todos los productores de mezcal pretenden poner en uso alguna técnica de acabado ya que preferirán señalar que su producto es 100% natural, otros pretenderán suavizar el sabor del mezcal para reducir la sensación de astringencia en boca que proporciona el etanol, por tanto las técnicas aquí mencionadas para lograr un producto terminado podrán o no aplicar para todos los productores [@Ciatej2014].
 
 ### Maduración del mezcal en barricas
 
-Esta operación se realiza cuando se pretende que el mezcal presente notas sensoriales características de la madera. El tiempo en que un mezcal debe estar en las barricas depende del perfil sensorial que se pretenda que tome el producto en la barrica, por tanto, esto deberá realizarse en la práctica a manera por medio de pruebas a fin de determinar el tiempo de reposo o de añejamiento. 
+Esta operación se realiza cuando se pretende que el mezcal presente notas sensoriales características de la madera. El tiempo en que un mezcal debe estar en las barricas depende del perfil sensorial que se pretenda que tome el producto en la barrica, por tanto, esto deberá realizarse en la práctica a manera por medio de pruebas a fin de determinar el tiempo de reposo o de añejamiento.
+
+```{r, out.width='75%', fig.align='center', fig.cap='Añejamiento del mezcal en Ex-hacienda Zacapendo'}
+knitr::include_graphics('Añejamiento.jpg')
+```
 
 ### Dilución del destilado rectificado al grado comercial 
 
-Una vez que se ha definido el grado alcohólico del producto a envasar del rectificado obtenido de la segunda destilación, se debe disponer de la cantidad de agua necesaria así como revisar la calidad de esta agua de dilución. Las características del agua de dilución son en primer lugar, que sea agua potable (apta para consumo humano) y en segundo, que sea desmineralizada. Esta última característica es crítica ya que permitirá que el mezcal sea estable y no presente alguna turbiedad una vez envasado. La cantidad de agua necesaria, puede calcularse a partir de conocer el volumen de litros de mezcal de alta concentración, de su grado alcohólico y del grado alcohólico al que se pretende dejar el volumen de mezcal diluido.
+Una vez que se ha definido el grado alcohólico del producto a envasar del rectificado obtenido de la segunda destilación, se debe disponer de la cantidad de agua necesaria así como revisar la calidad de esta agua de dilución. Las características del agua de dilución son en primer lugar, que sea agua potable (apta para consumo humano) y en segundo, que sea desmineralizada. Esta última característica es crítica ya que permitirá que el mezcal sea estable y no presente alguna turbiedad una vez envasado. La cantidad de agua necesaria, puede calcularse a partir de conocer el volumen de litros de mezcal de alta concentración, de su grado alcohólico y del grado alcohólico al que se pretende dejar el volumen de mezcal diluido [@Ciatej2014].
+
+```{r, out.width='75%', fig.align='center', fig.cap='Rectificadora en Ex-hacienda Zacapendo'}
+knitr::include_graphics('Rectificadora.jpg')
+```
 
 # Control de calidad del mezcal
 
@@ -522,19 +630,19 @@ _Destilado con._ Mezcal que debe destilarse con ingredientes para incorporar sab
 
 # Técnica de cata
 
-Para realizar una cata de mezcal, es importante tomar en cuenta 4 características importantes del destilado: (1) Color; (2) Cuerpo; (3) Aromas; y (4) Sabor. Este ultimo, sabor, es el más importante, ya que influye en la decisión de compra sobre un producto y otro, independientemente de la variedad de agave, categoría, clase o marca. Para realizar el catado es necesario contar con la copa correcta. La copa ideal puede ser la oficial para la cata de tequila (Riedel Ouverture Bar Tequila). Esta copa está diseñada para apreciar de mejor manera las cuatro 4 características principales de los destilados de agave. 
+Para realizar una cata de mezcal, es importante tomar en cuenta 4 características importantes del destilado: (1) Color; (2) Cuerpo; (3) Aromas; y (4) Sabor. Este ultimo, sabor, es el más importante, ya que influye en la decisión de compra sobre un producto y otro, independientemente de la variedad de agave, categoría, clase o marca. Para realizar el catado es necesario contar con la copa correcta. La copa ideal puede ser la oficial para la cata de tequila (Riedel Ouverture Bar Tequila). Esta copa está diseñada para apreciar de mejor manera las cuatro 4 características principales de los destilados de agave [@Sauza2020]. 
 
 ## Color
 
-Para conocer el color del mezcal, solo se lleva la copa a la altura de los ojos para asignarle algún color, transparencia y brillo al producto. 
+Para conocer el color del mezcal, solo se lleva la copa a la altura de los ojos para asignarle algún color, transparencia y brillo al producto [@Sauza2020]. 
 
 ## Cuerpo 
 
-Para conocer el cuerpo, se agita la copa asegurándo de que el líquido se adhiera a las paredes formando una corona en la parte superior. De esta corona se desprenderán las lágrimas o piernas. Después, se podrá definir el cuerpo del mezcal como ligero, medio o entero, esto dependerá de que tan rápido desciendan las gotas y de que tan pegadas estén una de la otra. 
+Para conocer el cuerpo, se agita la copa asegurándo de que el líquido se adhiera a las paredes formando una corona en la parte superior. De esta corona se desprenderán las lágrimas o piernas. Después, se podrá definir el cuerpo del mezcal como ligero, medio o entero, esto dependerá de que tan rápido desciendan las gotas y de que tan pegadas estén una de la otra [@Sauza2020]. 
 
 ## Aroma
 
-Se dice que en los mezcales existen muchos aromas. Es un poco complicado poder percibirlos todos, por eso es mejor concentrarse en las notas primarias, que son aquellas dadas por el proceso. Éstas se pueden percibir, entre muchos otros, como:
+Se dice que en los mezcales existen muchos aromas. Es un poco complicado poder percibirlos todos, por eso es mejor concentrarse en las notas primarias, que son aquellas dadas por el proceso. Éstas se pueden percibir, entre muchos otros, como [@Sauza2020]:
 
 (1) Lácteos
 
@@ -546,7 +654,7 @@ Se dice que en los mezcales existen muchos aromas. Es un poco complicado poder p
 
 ## Sabor 
 
-Para este último paso, es importante conocer los sabores que se perciben en boca y que son:          
+Para este último paso, es importante conocer los sabores que se perciben en boca y que son [@Sauza2020]:          
 
 (1) Dulce, en la parte frontal de la lengua         
 
@@ -556,57 +664,54 @@ Para este último paso, es importante conocer los sabores que se perciben en boc
 
 (4) Amargo, en la parte trasera de la lengua  
 
-Cada una de estas partes trabajan a diferentes temperaturas por lo que es sumamente importante mantener el trago en boca durante mínimo 10 segundos. Antes de realizar todo este proceso es importante también avisarle al sistema nervioso lo que esta a punto de recibir, ¿cómo le avisamos? por medio de la vista, el olfato y el paladar. Para preparar a este último, es importante que acostumbremos la papila gustativa al alcohol dándole primero un pequeño sorbo al mezcal, de esta forma, la papila gustativa producirá saliva y estará lo suficientemente húmeda como para recibir el trago. Una vez preparadas las papilas, entonces se procede a realizar la degustación. Es así como se podrán percibir todos los sabores.  
+Cada una de estas partes trabajan a diferentes temperaturas por lo que es sumamente importante mantener el trago en boca durante mínimo 10 segundos. Antes de realizar todo este proceso es importante también avisarle al sistema nervioso lo que esta a punto de recibir, ¿cómo le avisamos? por medio de la vista, el olfato y el paladar. Para preparar a este último, es importante que acostumbremos la papila gustativa al alcohol dándole primero un pequeño sorbo al mezcal, de esta forma, la papila gustativa producirá saliva y estará lo suficientemente húmeda como para recibir el trago. Una vez preparadas las papilas, entonces se procede a realizar la degustación. Es así como se podrán percibir todos los sabores [@Sauza2020].  
 
-En el proceso de degustación es también muy importante que el aire se exhale por la nariz con boca cerrada. De esta manera tendrás una alimentación retronasal que te ayudará a aumentar los sabores en boca. Muchas personas exhalan el aire por la boca después de dar el trago para no percibir el sabor o lo quemante del alcohol, pero comenten un gran error, ya que se les dificultará poder percibir los sabores en boca.  
+En el proceso de degustación es también muy importante que el aire se exhale por la nariz con boca cerrada. De esta manera tendrás una alimentación retronasal que te ayudará a aumentar los sabores en boca. Muchas personas exhalan el aire por la boca después de dar el trago para no percibir el sabor o lo quemante del alcohol, pero comenten un gran error, ya que se les dificultará poder percibir los sabores en boca [@Sauza2020].  
 
-Este proceso tendrá que repetirse con cada uno de los mezcales que se vayan a catar.
+Este proceso tendrá que repetirse con cada uno de los mezcales que se vayan a catar [@Sauza2020].
 
 
 # Maridaje y/o acompañamiento
 
-Existen dos formas de maridar las bebidas con los alimentos por complementación y por contraste. En la complementación, los sabores del platillo y la bebida se refuerzan entre sí, mientras que, cuando es por contraste, las diferencias entre el sabor del destilado y el de los alimentos hace resaltar las bondades de ambos.  Cuando se trata de maridar un mezcal, existe un sinfín de posibilidades, pues este destilado se puede combinar con sabores dulces, amargos, agrios y salados. 
+Existen dos formas de maridar las bebidas con los alimentos por complementación y por contraste. En la complementación, los sabores del platillo y la bebida se refuerzan entre sí, mientras que, cuando es por contraste, las diferencias entre el sabor del destilado y el de los alimentos hace resaltar las bondades de ambos.  Cuando se trata de maridar un mezcal, existe un sinfín de posibilidades, pues este destilado se puede combinar con sabores dulces, amargos, agrios y salados [@Complice2017]. 
 
-De hecho, gran parte del auge en el consumo del mezcal se debe a su sabor ahumado característico y a sus diversas formas de mezclarse con otros ingredientes.  Si bien el maridaje con mezcal puede realizarse con gran variedad de sabores, los platillos tradicionales de la gastronomía mexicana son los principales que deben acompañarse con este exquisito destilado. La mayoría de los platillos nacionales incluyen en su receta condimentos que a la hora de mezclarse con el mezcal hacen la mancuerna ideal.
-
-Algo importante es que cualquier mezcal es ideal para maridar con comida grasa, pues su carácter cítrico ayuda a limpiar el paladar. De esta manera, si planeas comer embutidos, carnes, mayonesas o algún otro alimento rico en grasa, el mezcal quedará perfecto con ellos. 
+De hecho, gran parte del auge en el consumo del mezcal se debe a su sabor ahumado característico y a sus diversas formas de mezclarse con otros ingredientes.  Si bien el maridaje con mezcal puede realizarse con gran variedad de sabores, los platillos tradicionales de la gastronomía mexicana son los principales que deben acompañarse con este exquisito destilado. La mayoría de los platillos nacionales incluyen en su receta condimentos que a la hora de mezclarse con el mezcal hacen la mancuerna ideal [@Complice2017]. Algo importante es que cualquier mezcal es ideal para maridar con comida grasa, pues su carácter cítrico ayuda a limpiar el paladar. De esta manera, si planeas comer embutidos, carnes, mayonesas o algún otro alimento rico en grasa, el mezcal quedará perfecto con ellos [@Food2020]. 
 
 ## Maguey Espadín (A. Angustifolia)
 
-Debido a su suavidad, el espadín ayuda a neutralizar las notas picantes. De esta manera, los platillos en donde el chile sea predominante quedarán de maravilla con este mezcal, pues permitirá apreciar sabores más escondidos y no solo lo abrumador del picante. También puede ser maridado con una amplia gama de sabores, que van desde los dulces, pasando por alimentos con toque ahumado o ingredientes cítricos. Este tipo de mezcal va bien con tiraditos, ceviches, carnes magras y postres. 
+Debido a su suavidad, el espadín ayuda a neutralizar las notas picantes. De esta manera, los platillos en donde el chile sea predominante quedarán de maravilla con este mezcal, pues permitirá apreciar sabores más escondidos y no solo lo abrumador del picante. También puede ser maridado con una amplia gama de sabores, que van desde los dulces, pasando por alimentos con toque ahumado o ingredientes cítricos. Este tipo de mezcal va bien con tiraditos, ceviches, carnes magras y postres [@Food2020]. 
 
-Platillo sugerido: tostada de salpicón de betabel con chayote. La mineralidad y notas herbáceas del mezcal se complementan con el dulzor del betabel y lo mineral del maíz.
+Platillo sugerido: tostada de salpicón de betabel con chayote. La mineralidad y notas herbáceas del mezcal se complementan con el dulzor del betabel y lo mineral del maíz [@Food2020].
 
 ## Maguey Cenizo (A. Durangensis)
 
-Es recomendable acompañar con fresas y uvas que van muy bien con sus notas cítricas, ahumadas, dulces y frutales, incluso de tabaco y chocolate.
+Es recomendable acompañar con fresas y uvas que van muy bien con sus notas cítricas, ahumadas, dulces y frutales, incluso de tabaco y chocolate [@FoodTravel2020].
 
 ## Maguey Papalote o Chino (A. Cupreata)
 
-El maridaje perfecto de este mezcal es con mole pues aporta un excelente contraste. En especial el mole verde y amarillo. También para la cecina y platillos bien condimentados y postres acentuadamente dulces.
+El maridaje perfecto de este mezcal es con mole pues aporta un excelente contraste. En especial el mole verde y amarillo. También para la cecina y platillos bien condimentados y postres acentuadamente dulces [@Cicatriz2020].
 
 ## Maguey Tobalá (Agave Potatorum)
 
-Gracias a sus notas frutales, contrastará de manera perfecta con los alimentos salados, es decir, con carnes frías, cacahuates o frituras saladas, quesos, por mencionar algunos. El maridaje entre alimentos dulces y el mezcal tobalá funciona por armonía, ya que sus maravillosas notas frutales quedan bien con los sabores dulces. De igual forma, va bien con alimentos con un poco más de grasa y algunos otros ácidos-dulces. Aunque el líquido es más complejo que un vino, puede ser su sustituto perfecto, yendo bien con quesos, embutidos, uvas, manzana verde y platillos especiados, presentes en la amplia gastronomía mexicana.  
+Gracias a sus notas frutales, contrastará de manera perfecta con los alimentos salados, es decir, con carnes frías, cacahuates o frituras saladas, quesos, por mencionar algunos. El maridaje entre alimentos dulces y el mezcal tobalá funciona por armonía, ya que sus maravillosas notas frutales quedan bien con los sabores dulces. De igual forma, va bien con alimentos con un poco más de grasa y algunos otros ácidos-dulces. Aunque el líquido es más complejo que un vino, puede ser su sustituto perfecto, yendo bien con quesos, embutidos, uvas, manzana verde y platillos especiados, presentes en la amplia gastronomía mexicana [@Food2020].  
 
-Platillo sugerido: un crudo de pescado con pera, salsa de xoconostle y jalapeño; así como un pastel de queso de cabra con durazno confitado y diplomat de mezcal. Con el platillo salado, lo que complementa son las notas frescas y especiadas de los ingredientes, que van bien con el cuerpo del Tobalá; mientras que para el postre, la combinación despunta las notas generadas en la fermentación, que para esta variante son lácticas, mismas que se refuerzan con el queso de cabra.
+Platillo sugerido: un crudo de pescado con pera, salsa de xoconostle y jalapeño; así como un pastel de queso de cabra con durazno confitado y diplomat de mezcal. Con el platillo salado, lo que complementa son las notas frescas y especiadas de los ingredientes, que van bien con el cuerpo del Tobalá; mientras que para el postre, la combinación despunta las notas generadas en la fermentación, que para esta variante son lácticas, mismas que se refuerzan con el queso de cabra [@Food2020].
 
 ## Maguey Azúl (A. Tequilana)
 
-Es recomendable realizar un maridaje con alimentos de la misma frescura y que reúnan los sabores cítricos del destilado, que dejen una sensación de mineralidad en el paladar. Algunas opciones son los gazpachos, sopas frías mentoladas y mariscos, mejillones, camarones y callo de hacha.
+Es recomendable realizar un maridaje con alimentos de la misma frescura y que reúnan los sabores cítricos del destilado, que dejen una sensación de mineralidad en el paladar. Algunas opciones son los gazpachos, sopas frías mentoladas y mariscos, mejillones, camarones y callo de hacha [@Food2021].
 
 ## Maguey Cuishe (A. Karwinski)
 
-Por su fuerte aroma a musgo y humedad, persistentes sabores a clavo, pimiento blanca, canela y manzanas, es excelente para acompañar con pollo, ensaladas o menús mediterráneos.
+Por su fuerte aroma a musgo y humedad, persistentes sabores a clavo, pimiento blanca, canela y manzanas, es excelente para acompañar con pollo, ensaladas o menús mediterráneos [@Thank2022].
 
 # Mixología con mezcal
 
-El cóctel es la introducción, enciende esa luz de curiosidad que hace que la gente quiera probar ese mezcal [@Janzen2017]. Sin embargo, al conocer los tiempo de crecimiento de la planta, su rendimiento final en la destilación y sus carcaterísticas organolépticas, indica que el mezcal más apto para mezclar es el Espadín, porque es el que tarda menos en crecer y es el más abundante "hay que respetar la planta". Por ejemplo, el tepestate es una planta que tarda cerca de 25 años en madurar, por lo que sería “una falta de respeto a la naturaleza” utilizar este tipo de agave para hacer tragos.
+El cóctel es la introducción, enciende esa luz de curiosidad que hace que la gente quiera probar ese mezcal [@Janzen2017]. Sin embargo, al conocer los tiempo de crecimiento de la planta, su rendimiento final en la destilación y sus carcaterísticas organolépticas, el mezcal más apto para mezclar es el Espadín, porque es el que tarda menos en crecer y es el más abundante "hay que respetar la planta". Por ejemplo, el tepestate es una planta que tarda cerca de 25 años en madurar, por lo que sería “una falta de respeto a la naturaleza” utilizar este tipo de agave para hacer tragos [@Universal2021].
 
 ## Fresco. Bebidas cítricas y frutales
 
 ## Tradicionales
-
 
 # References {-}
 
