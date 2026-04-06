@@ -1,5 +1,5 @@
 --- 
-title: "Seminario-Taller: Mezcal, la bebida espirituosa más compleja del mundo"
+title: "Mezcal, la bebida espirituosa más compleja del mundo"
 author: "Omar Heredia-Portillo"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -9,17 +9,22 @@ csl: apa.csl
 
 # Una breve historia moderna
 
-De acuerdo con el Consejo Regulador del Mezcal (2018):
-La palabra Mezcal tiene su origen en la lengua náhuatl. Proviene de los términos “mexcalli” “metl” que significa maguey e “ixcalli” que significa cocido. Se refiere al maguey cocido que los pobladores de Mesoamérica utilizaban como alimento desde hace más de 9 mil años.
-En Mesoamérica, los códices y las fuentes de la época colonial describen una gran variedad de bebidas fermentadas producidas antes del contacto con los europeos, especialmente bebidas cuya materia prima era el maguey, estas bebidas formaban parte de importantes rituales religiosos a los cuales sólo tenían acceso los nobles y sacerdotes de aquella época.
-La práctica y las herramientas para producir este destilado se expandieron rápidamente en el siglo XVII. Cada comunidad utilizaba lo que su región y su cultura ofrecía para su elaboración, así cada región fue construyendo sus equipos, herramientas y métodos para la elaboración de su destilado, generando identidad, diversidad y reputación de acuerdo con el proceso regional empleado.
-En el siglo XVIII la producción de mezcal era ya una industria en algunas regiones, la minería desempeñó un papel detonador en la producción y su consumo. Durante el periodo de la Nueva España, la corona prohibió el mezcal por considerarlo un pernicioso abuso en contra de la salud pública y, principalmente, por afectar intereses reales en torno a la importación de bebidas alcohólicas desde Europa. Pese a lo anterior, el mezcal encontró refugio en las haciendas, las comunidades agrícolas y en los pequeños productores que mantuvieron con vida la enseñanza de sus ancestros para la producción local. 
-En la etapa de México independiente a finales del siglo XIX, en apoyo al desarrollo capitalista, visionarios introdujeron en Jalisco técnicas modernas de destilación. El mezcal elaborado en la comunidad de Tequila Jalisco adoptó la modernización en su proceso de destilado para con ello aumentar el volumen de producción y comenzar la explotación de su vino de mezcal conocido como Tequila.
+De acuerdo con el Consejo Regulador del Mezcal (2018):  
+La palabra *mezcal* tiene su origen en la lengua náhuatl. Proviene del término “mexcalli”, compuesto por “metl”, que significa maguey, e “ixcalli”, que significa cocido. En conjunto, el concepto hace referencia al maguey cocido, el cual ha sido utilizado por los pobladores de Mesoamérica como fuente de alimento desde hace más de 9 mil años.
 
-De esta manera, como explica @Bowen2015 en su libro _Divided Spirits: Tequila, Mezcal, and the Politics of Production_:
-El mezcal de la región de tequila se volvió popular en los Estados Unidos gracias a las ferias mundiales y la infraestructura que conjuntó Tequila, Jalisco, resultando en la industrialización del tequila de mezcal. El cual fue registrado como un producto con Denominación de Origen (DO) en 1974, el primero fuera de Europa. Mientras que la denominación del mezcal se estableció en 1994, con la diferencia de mantener producciones más limitadas y de agaves diversos. 
-Sin embargo, la denominación de origen en vez de proteger los procesos, el lugar y las personas, ha homogeneizado las especies de agave, ha privado a los pequeños agricultores de las tierras y los empleos y ha eliminado la diversidad en el sabor de los aguardientes de agave que son exclusivos de las decisiones de producción artesanal y microambiental. 
-El estándar del tequila restringe su producción a una sola especie de agave, Agave tequilana, y mientras que el estándar del mezcal permite una gran variedad de agaves que tradicionalmente han sido usadas. El terruño del mezcal es definido por consumidores con ingresos altos que están alejados de las realidades sociales y económicas de los productores, son amantes de los alimentos y las bebidas, y están dispuestos pagar un precio más elevado por los productos artesanales y étnicos de lugares inconcebiblemente accidentados y lejanos, imbuidos de espiritualidad y tradición. 
+En Mesoamérica, los códices y las fuentes de la época colonial documentan una amplia diversidad de bebidas fermentadas producidas antes del contacto con los europeos, particularmente aquellas elaboradas a partir del maguey. Estas bebidas no solo cumplían funciones alimenticias, sino también simbólicas y rituales, formando parte de ceremonias religiosas a las que, en muchos casos, únicamente tenían acceso las élites, como nobles y sacerdotes.
+
+La producción de destilados de agave comenzó a expandirse de manera significativa a partir del siglo XVII, cuando las técnicas y herramientas de destilación se difundieron en distintas regiones. Cada comunidad adaptó el proceso de elaboración a sus condiciones geográficas, culturales y tecnológicas, lo que dio lugar a una notable diversidad de métodos productivos. Así, cada región fue construyendo su propia identidad en torno al mezcal, generando una riqueza de estilos, sabores y reputaciones asociadas a prácticas locales.
+
+Durante el siglo XVIII, la producción de mezcal se consolidó como una actividad económica relevante en diversas regiones, particularmente en aquellas vinculadas a la minería, donde su consumo se incrementó entre los trabajadores. No obstante, durante el periodo de la Nueva España, la Corona española prohibió su producción al considerarlo perjudicial para la salud pública y, sobre todo, por afectar los intereses comerciales derivados de la importación de bebidas alcohólicas europeas. A pesar de estas restricciones, el mezcal logró subsistir en haciendas, comunidades agrícolas y pequeños sistemas productivos, donde se preservaron los conocimientos tradicionales transmitidos de generación en generación.
+
+Hacia finales del siglo XIX, en el contexto del México independiente y del impulso al desarrollo capitalista, se introdujeron en Jalisco técnicas modernas de destilación. El mezcal producido en la región de Tequila adoptó estos avances tecnológicos, permitiendo aumentar los volúmenes de producción y dando origen a la consolidación del denominado “vino de mezcal”, posteriormente conocido como tequila.
+
+En este sentido, como explica @Bowen2015 en su obra *Divided Spirits: Tequila, Mezcal, and the Politics of Production*, el mezcal producido en la región de Tequila alcanzó popularidad en Estados Unidos gracias a su presencia en ferias internacionales y al desarrollo de infraestructura regional, lo que derivó en su industrialización. Este proceso culminó con el reconocimiento del tequila como producto con Denominación de Origen (DO) en 1974, siendo el primero fuera de Europa. Por su parte, la denominación de origen del mezcal fue establecida en 1994, caracterizándose por mantener una producción más limitada y una mayor diversidad de especies de agave.
+
+Sin embargo, la denominación de origen ha generado debates importantes. Si bien su objetivo es proteger el producto, su territorio y sus procesos, en la práctica también ha contribuido, en ciertos casos, a la homogeneización de las especies de agave, al desplazamiento de pequeños productores y a la reducción de la diversidad sensorial de los destilados. Esta diversidad es, precisamente, resultado de decisiones productivas artesanales y de condiciones microambientales específicas.
+
+A diferencia del tequila, cuyo estándar restringe su producción a una sola especie (*Agave tequilana*), el mezcal permite el uso de múltiples especies de agave tradicionalmente empleadas. No obstante, el concepto de “terruño” del mezcal ha sido, en gran medida, construido y valorizado por consumidores de alto poder adquisitivo, quienes, aunque valoran los productos artesanales y su carga cultural, suelen estar alejados de las realidades sociales y económicas de los productores. Estos consumidores están dispuestos a pagar precios elevados por productos percibidos como auténticos, provenientes de territorios remotos y asociados a nociones de tradición, identidad y espiritualidad.
 
 ## Estadísticas
 A medida que aumenta la demanda en ambos lados de la frontera, no todo es sol y rosas. Ha surgido una gran cantidad de preocupaciones a medida que las nuevas marcas llenan los estantes. Muchas de las nuevas etiquetas provienen de empresarios extranjeros (a veces sin intereses en la cultura o la historia del espíritu) que ingresan al mercado para comprar y volver a envasar líquidos con nombres llamativos. En el mejor de los casos, cuidan a las personas responsables de hacer este oro líquido y ayudan a preservar la herencia cultural del espíritu. En el peor de los casos, solo buscan ganar dinero rápido [@Janzen2017].
@@ -56,6 +61,7 @@ knitr::include_graphics('ProduccionEspecie2021.jpg')
 
 
 ### Envasado para el mercado nacional
+
 
 
 ```{r, out.width='75%', fig.align='center', fig.cap='Envasado para mercado nacional por año (Referido a 45% Alc. Vol.)'}
